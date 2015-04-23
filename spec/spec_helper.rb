@@ -97,4 +97,5 @@ config.include Capybara::DSL
 #require File.expand_path("../../config/environment", __FILE__)
 #require 'rspec/rails'
 #require 'capybara/rspec'
+config.include Rails.application.routes.url_helpers
 end
